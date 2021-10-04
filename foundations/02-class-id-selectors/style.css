@@ -1,0 +1,18 @@
+/* style.css */
+
+.num-odd {
+    background-color: #e00850;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+.big-text,
+#second-div4 {
+    font-size: 24px;
+}
+#first-div2 {
+    color: rgb(37, 124, 255);
+    font-size: 36px;
+}
+#second-div4 {
+    background-color: hsl(90, 88%, 51%);
+    font-weight: bold;
+}

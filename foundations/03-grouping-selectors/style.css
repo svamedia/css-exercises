@@ -1,0 +1,12 @@
+.main-btn{
+    background-color: #000000;
+    color: #ffffff;
+}
+.second-btn{
+    background-color: #e9e92b;
+}
+.main-btn,
+.second-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
