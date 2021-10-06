@@ -32,14 +32,22 @@ ul {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: grey;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-  margin: 10px;
-  color: grey;
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
