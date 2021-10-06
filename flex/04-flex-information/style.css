@@ -10,6 +10,32 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-section {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+p {
+  text-align: center;
 }
 
 /* do not edit this footer */
