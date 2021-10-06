@@ -30,3 +30,7 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.extra-margin {
+  margin: auto 15px;
+}
