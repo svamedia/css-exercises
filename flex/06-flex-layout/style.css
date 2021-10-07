@@ -30,7 +30,7 @@ input {
 ul,
 li {
   list-style: none;
-  padding: 0;
+  padding: 0 5px 0 5px;
   display: flex;
 }
 
@@ -59,4 +59,12 @@ a {
   display: flex;
   flex-flow: column wrap;
   background-color: #eee;
+}
+
+.footer > .left-links-footer {
+  justify-content: flex-start;
+}
+
+.footer > .right-links-footer {
+  justify-content: flex-end;
 }
