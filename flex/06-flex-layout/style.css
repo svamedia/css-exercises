@@ -32,7 +32,7 @@ input {
 ul,
 li {
   list-style: none;
-  padding: 0 5px 0 5px;
+  padding: 0 3px 0 3px;
   display: flex;
 }
 
@@ -60,14 +60,7 @@ a {
 
 .footer {
   display: flex;
-  flex-flow: column wrap;
+  justify-content: space-between;
   background-color: #eee;
-}
-
-.footer > .left-links-footer {
-  justify-content: flex-start;
-}
-
-.footer > .right-links-footer {
-  justify-content: flex-end;
+  height: 60px;
 }
