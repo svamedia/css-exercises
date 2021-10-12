@@ -17,7 +17,16 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  height: 500px;
+  width: 250px;
+}
+
+.cards-main {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 32px;
 }
 
 .content {
@@ -41,10 +50,6 @@ body {
   height: 72px;
   justify-content: flex-start;
   padding-left: 16px;
-}
-
-.cards-main {
-  display: flex;
 }
 
 .sidebar {
