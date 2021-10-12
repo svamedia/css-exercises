@@ -56,6 +56,9 @@ body {
 }
 
 ul {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
   list-style-type: none;
   padding: 0;
   margin: 0;
