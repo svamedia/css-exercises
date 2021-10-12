@@ -4,6 +4,25 @@ body {
   min-height: 100vh;
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
 }
 
 .header {
@@ -18,19 +37,12 @@ body {
   padding-left: 16px;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
+.main {
+  display: flex;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
+  flex: 1;
 }
